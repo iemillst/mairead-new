@@ -10,6 +10,9 @@ const Header = () => (
   >
     <div
       style={{
+        display: 'grid',
+        gridTemplateColumns: '3fr 1fr 1fr 1fr 1fr',
+        alignItems: 'Center',     
         margin: '0 auto',
         maxWidth: 960,
         padding: '1.45rem 1.0875rem',
@@ -26,6 +29,34 @@ const Header = () => (
           Gatsby
         </Link>
       </h1>
+      <h2 style={{ 
+        margin: 0, 
+        color: 'white',
+        alignItems: 'Center',     
+        }}>
+        About
+      </h2>
+      <h2 style={{ 
+        margin: 0, 
+        color: 'white',
+        alignItems: 'Center',     
+        }}>
+        Work
+      </h2>
+      <h2 style={{ 
+        margin: 0, 
+        color: 'white',
+        alignItems: 'Center',     
+        }}>
+        Hire me
+      </h2>
+      <h2 style={{ 
+        margin: 0, 
+        color: 'white',
+        alignItems: 'Center',     
+        }}>
+        Contact
+      </h2>
     </div>
   </div>
 )
