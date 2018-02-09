@@ -26,36 +26,64 @@ const Header = () => (
             textDecoration: 'none',
           }}
         >
-          Gatsby
+          Mairéad Lee
         </Link>
       </h1>
       <h2 style={{ 
         margin: 0, 
-        color: 'black',
         alignItems: 'Center',     
         }}>
-        About
+        <Link
+          to="/about"
+          style={{
+            color: 'black',
+            textDecoration: 'none',
+          }}
+        >
+          About
+        </Link>
       </h2>
       <h2 style={{ 
         margin: 0, 
-        color: 'black',
         alignItems: 'Center',     
         }}>
-        Work
+        <Link
+          to="/work"
+          style={{
+            color: 'black',
+            textDecoration: 'none',
+          }}
+        >
+          Work
+        </Link>
       </h2>
       <h2 style={{ 
         margin: 0, 
-        color: 'black',
         alignItems: 'Center',     
         }}>
-        Hire me
+        <Link
+          to="/hire"
+          style={{
+            color: 'black',
+            textDecoration: 'none',
+          }}
+        >
+          Hire
+        </Link>
       </h2>
       <h2 style={{ 
         margin: 0, 
-        color: 'black',
         alignItems: 'Center',     
         }}>
-        Contact
+        <Link
+          to="/contact"
+          style={{
+            color: 'black',
+            textDecoration: 'none',
+          }}
+        >
+          Contact
+        </Link>
       </h2>
     </div>
   </div>
