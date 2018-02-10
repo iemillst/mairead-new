@@ -62,13 +62,13 @@ const Header = () => (
         alignItems: 'Center',     
         }}>
         <Link
-          to="/hire"
+          to="/blog"
           style={{
             color: 'black',
             textDecoration: 'none',
           }}
         >
-          Hire
+          Blog
         </Link>
       </h2>
       <h2 style={{ 

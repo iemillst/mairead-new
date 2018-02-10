@@ -1,12 +1,12 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-const HirePage = () => (
+const BlogPage = () => (
   <div>
-    <h1>Hi from the hire page</h1>
+    <h1>Hi from the blog page</h1>
     <p>Welcome to page 2</p>
     <Link to="/">Go back to the homepage</Link>
   </div>
 )
 
-export default HirePage
+export default BlogPage
