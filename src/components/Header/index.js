@@ -18,62 +18,72 @@ const Header = () => (
         padding: '1.45rem 1.0875rem',
       }}
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'black',
-            textDecoration: 'none',
-          }}
-        >
+      <h1 
+        className='HeaderName'
+        style={{ margin: 0 }}>
+          <Link
+            to="/"
+            style={{
+              color: 'black',
+              textDecoration: 'none',
+            }}
+          >
           Mairéad Lee
         </Link>
       </h1>
-      <h2 style={{ 
-        margin: 0, 
-        alignItems: 'Center',     
-        }}>
-        <Link
-          to="/about"
-          style={{
-            color: 'black',
-            textDecoration: 'none',
-          }}
-        >
-          About
-        </Link>
+      <h2 
+        className='HeaderLink'
+          style={{ 
+          margin: 0, 
+          alignItems: 'Center',     
+          }}>
+          <Link
+            to="/about"
+            style={{
+              color: 'black',
+              textDecoration: 'none',
+            }}
+          >
+            About
+          </Link>
       </h2>
-      <h2 style={{ 
-        margin: 0, 
-        alignItems: 'Center',     
-        }}>
-        <Link
-          to="/work"
-          style={{
-            color: 'black',
-            textDecoration: 'none',
-          }}
-        >
+      <h2 
+        className='HeaderLink'
+        style={{ 
+          margin: 0, 
+          alignItems: 'Center',     
+          }}>
+          <Link
+            to="/work"
+            style={{
+              color: 'black',
+              textDecoration: 'none',
+            }}
+          >
           Work
         </Link>
       </h2>
-      <h2 style={{ 
-        margin: 0, 
-        alignItems: 'Center',     
-        }}>
-        <Link
-          to="/blog"
-          style={{
-            color: 'black',
-            textDecoration: 'none',
-          }}
-        >
+      <h2 
+        className='HeaderLink'
+        style={{ 
+          margin: 0, 
+          alignItems: 'Center',     
+          }}>
+          <Link
+            to="/blog"
+            style={{
+              color: 'black',
+              textDecoration: 'none',
+            }}
+          >
           Blog
         </Link>
       </h2>
-      <h2 style={{ 
-        margin: 0, 
-        alignItems: 'Center',     
+      <h2 
+        className='HeaderLink'
+        style={{ 
+          margin: 0, 
+          alignItems: 'Center',     
         }}>
         <Link
           to="/contact"
