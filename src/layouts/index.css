@@ -627,8 +627,11 @@ h1.HeaderName {
 
 h2.HeaderLink {
   font-family: Roboto, sans-serif;
-  font-weight: 300;
+  font-size: 30px;
+  font-weight: 100 !important;
+  font-style: normal;
 }
-#grad {
-  background: linear-gradient(to bottom right, rgba(255,0,0,0), rgba(255,0,0,1));
+body {
+  background: linear-gradient(to bottom right, rgba(242, 221, 222, .7), rgba(137,171,227, .6));
+  height: 100vh;
 }
